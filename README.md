@@ -1,4 +1,1 @@
-# pansergius
-
-Test site
-[Test 1](https://pansergius.github.io/waxom/waxom "Test1")
+This is my platform for experiments. Now is under construction
