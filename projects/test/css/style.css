@@ -12,6 +12,8 @@
     font-style: normal;
 }
 
+
+
 *{
 	font-family: 'Clear Sans', sans-serif;
 }
@@ -290,8 +292,6 @@ h4{
 }
 /**/
 .round, .round2 {
-	position: relative;
-	float: right;
 	width: 105px;
 	height: 105px;
 	border-radius: 50%;
@@ -304,26 +304,29 @@ h4{
 	border: none;
 }
 
-
 .round img, .round2 img{
 	margin-bottom: 5px;
 }
 
-.round{
+.round {
+	position: relative;
+	float: right;
 	top: 50px;
-	right: 0;
+	right: -50px;
 }
 
-.round2{
-	top: -50px;
-	right: 0;
+.round2 {
+	position: relative;
+	float: right;
+	top: 300px;
+	right: -50px;
 }
 
 /**/
 footer{
 	min-height: 160px;
 	background: #f7f7f7;
-	padding: 20px 0;
+	padding: 40px 0 0;
 }
 footer p{
 	font-size: 14px;
