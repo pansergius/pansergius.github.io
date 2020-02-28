@@ -289,27 +289,34 @@ h4{
 	text-align: center;
 }
 /**/
-.round {
+.round, .round2 {
 	position: relative;
 	float: right;
-	top: 50px;
-	right: 0;
 	width: 105px;
 	height: 105px;
 	border-radius: 50%;
 	overflow: hidden;
 	background: #1AB0CE;
-
 	font-size: 14px;
 	line-height: 16px;
 	text-align: center;
 	color: #FFFFFF;
-
 	border: none;
 }
 
-.round img{
+
+.round img, .round2 img{
 	margin-bottom: 5px;
+}
+
+.round{
+	top: 50px;
+	right: 0;
+}
+
+.round2{
+	top: -50px;
+	right: 0;
 }
 
 /**/
